@@ -1,0 +1,115 @@
+
+body {
+    background-color: #6058cc;
+    margin: 0px;
+    
+}
+
+
+
+#invader {
+    text-align: center;
+    margin: 10rem auto;
+}
+
+.cell {
+    border: 2px solid #485460;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    display: inline-block;
+    background-color: #d3dae2;
+}
+
+/*Les différentes couleurs*/
+.plain {
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.empty {
+    background-color: #000;
+    border-color: #333;
+}
+
+.light {
+    background-color: hotpink;
+    border-color: #f00;
+}
+
+.highlight {
+    background-color: #ff0;
+    border-color: #990;
+}
+
+.pink {
+    background-color: #f0f;
+    border-color: #b0b;
+}
+
+.green {
+    background-color: lawngreen;
+    border-color: green;
+}
+
+.initialGrey {
+    background-color: #d3dae2;
+    
+}
+
+.gridRow {
+    height: 1.5rem;
+}
+
+
+
+/*FORM*/
+
+.theForm {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: #3048AD;
+}
+
+.theFormField {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: none;
+    padding: 1.2rem;
+    
+}
+
+
+.theFormField_pixel {
+    padding: 1.2rem;
+    border: none;
+    margin: 0.1rem;
+}
+
+.theFormButton{
+    background-color: #9C6EE7;
+    color: white;
+    border: none;
+    padding: 1.2rem;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#selector {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 16px;
+    border: 1px solid #000;
+}
+
+.style-button {
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.style-button:hover {
+    cursor: pointer;
+}
